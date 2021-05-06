@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:test": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "firebase": "^8.4.3",
     "image-downloader": "^4.0.1",
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^5.2.1",
+    "xmlhttprequest": "^1.8.0"
   }
 }

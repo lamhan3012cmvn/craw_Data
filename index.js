@@ -117,7 +117,6 @@ async function main() {
         }
     }))
 	await browser.close();
-    const db=[]
     const res=await Promise.all(data.map(async (current,index)=>{
         const fileName=current.nextData[0].Name
         const img=current.nextLink
